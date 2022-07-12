@@ -8,31 +8,42 @@
 body,
 html {
     background-color: hsl(212, 45%, 89%);
-    height: 100%;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /*
-    height: 100vh;*/
     background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    margin-top: 250px;
+    height: 500px;
+    width: 320px;
     border-radius: 10px;
-}
-
-.head {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 275px;
-
+    padding-top: 10px;
 }
 
 img {
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    margin-left: 10px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 40%;
+    width: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    width: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
 }

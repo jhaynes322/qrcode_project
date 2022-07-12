@@ -5,8 +5,11 @@
     max-width: 1440px;
 }
 
-.main {
+body {
     background-color: hsl(212, 45%, 89%);
+}
+
+.main {
     display: flex;
     height: 100vh;
     justify-content: center;
